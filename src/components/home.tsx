@@ -22,7 +22,7 @@ export function Home(){
   return <>
     <section className="hero"><div className="wrap"><motion.div className="hero-content" initial={{opacity:0,y:22}} animate={{opacity:1,y:0}} transition={{duration:.65}}>
       <div className="eyebrow">Kirik Party · Jumbo Screen celebrations</div>
-      <h1>Your people.<br/>Your moment.<br/><i style={{color:'#d5b77f'}}>Big-screen magic.</i></h1>
+      <h1>Your moment.<br/><i style={{color:'#d5b77f'}}>Big-screen magic.</i></h1>
       <p>Make birthdays, anniversaries and just-because days feel like the main event—with your own private screen, thoughtful décor and favourite people all in one place.</p>
       <Link href="/book?package=45-min" className="hero-special-offer"><span className="hero-special-price">{'\u20B9'}500</span><span className="hero-special-copy"><b>45-minute celebration</b><small>Cake cutting · Decoration setup · 15 soft copies</small></span><ArrowRight size={17}/></Link>
       <div className="hero-actions"><Link className="btn" href="/packages">Explore packages <ArrowRight size={16}/></Link><Link className="btn btn-outline" href="/book">Request a booking</Link></div>
