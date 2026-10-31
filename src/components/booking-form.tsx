@@ -8,7 +8,7 @@ const packages = {
   '45-min': { label: '45 minutes · Celebration Special', price: 500, includes: ['Cake cutting', 'Decoration setup', '15 soft copies'], note: '' },
   '1-hour': { label: '1 hour · Quick Celebration', price: 799, includes: ['LED name display', 'HBD LED letters', 'Decoration setup', 'OTT access', '4K screen with Dolby Atmos'], note: 'Cake, fog entry and DSLR photography are not included.' },
   '2-hour': { label: '2 hours · Signature Celebration', price: 1599, includes: ['LED name display', 'Decoration setup', 'OTT access', '4K screen with Dolby Atmos', 'Half-kilo cake', 'Fog entry', 'HBD LED letters', 'DSLR photos · 30 soft copies'], note: '' },
-  '3-hour': { label: '3 hours · Full Celebration', price: 2199, includes: ['LED name display', 'Decoration setup', 'OTT access', '4K screen with Dolby Atmos', 'Half-kilo cake', 'Fog entry', 'HBD LED letters', 'DSLR photos · 30 soft copies'], note: '' },
+  '3-hour': { label: '3 hours · Full Celebration', price: 2199, includes: ['Private Jumbo Screen experience for 3 hours', 'LED name display', 'Decoration setup', 'OTT access', '4K screen with Dolby Atmos', 'Half-kilo cake', 'Fog entry', 'HBD LED letters', 'DSLR photos · 30 soft copies'], note: '' },
 } as const;
 const addons = [
   ['Rose petal entry', 499], ['Rose petals on the table', 199], ['Bubble entry', 149],

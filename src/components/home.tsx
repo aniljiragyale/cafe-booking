@@ -8,7 +8,7 @@ import {imageUrl} from '@/lib/data';
 const packages=[
   {id:'1-hour',duration:'1 hour',price:799,title:'A little celebration',description:'Your own private Jumbo Screen experience for up to four people.',extras:['LED name display','HBD LED letters','Decoration setup','OTT platforms','4K screen with Dolby Atmos'],note:'Cake, fog entry and DSLR photography are not included.'},
   {id:'2-hour',duration:'2 hours',price:1599,title:'The signature party',description:'More time for your entrance, celebration and photos.',extras:['Everything in the 1-hour package','Half-kilo cake','Fog entry','HBD LED letters','DSLR photography · 30 soft copies'],note:''},
-  {id:'3-hour',duration:'3 hours',price:2199,title:'Make a night of it',description:'A longer private celebration for the moments you want to savour.',extras:['Everything in the 2-hour package'],note:''},
+  {id:'3-hour',duration:'3 hours',price:2199,title:'Make a night of it',description:'Three full hours for your private screening, cake, celebration and photos.',extras:['LED name display & HBD LED letters','Decoration setup and OTT access','4K screen with Dolby Atmos','Half-kilo cake and fog entry','DSLR photography · 30 soft copies'],note:''},
 ];
 const addons=[['Rose petal entry','₹499'],['Rose petals on the table','₹199'],['Bubble entry','₹149'],['Candle walk','₹149'],['LED letter name','₹199'],['2 cold-fire guns','₹499']];
 const occasions=[{icon:PartyPopper,label:'Birthdays'},{icon:Heart,label:'Anniversaries'},{icon:Gift,label:'Surprises & proposals'},{icon:Sparkles,label:'Baby showers & family days'}];
