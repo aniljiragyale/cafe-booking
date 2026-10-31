@@ -1,9 +1,16 @@
-node_modules/
+﻿node_modules/
 .next/
 out/
 build/
+.vercel/
 .env*
 !.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+secrets*.json
 data/kirik-party-data.json
 data/*.tmp
 *.tsbuildinfo
