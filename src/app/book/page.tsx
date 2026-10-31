@@ -1,0 +1,2 @@
+import {BookingForm} from '@/components/booking-form';
+export default async function Page({searchParams}:{searchParams:Promise<{package?:string}>}){const params=await searchParams;return <><section className="page-hero"><div className="wrap"><div className="eyebrow">Your moment starts here</div><h1>Let’s plan your celebration.</h1><p className="muted" style={{color:'#ccc'}}>Choose your Jumbo Screen package and tell us what you have in mind.</p></div></section><section className="section"><div className="wrap"><BookingForm initialPackage={params.package}/></div></section></>}

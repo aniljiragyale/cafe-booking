@@ -1,0 +1,9 @@
+node_modules/
+.next/
+out/
+build/
+.env*
+!.env.example
+data/kirik-party-data.json
+data/*.tmp
+*.tsbuildinfo
